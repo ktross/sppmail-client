@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>SPPMail</title>
+<link href="global.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="AIRAliases.js"></script>
+<script type="text/javascript" src="mixpanel.js"></script>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="global.js"></script>
+<script type="text/javascript" src="AIRUpdater.js"></script>
+</head>
+<body>
+
+<div id="logo"><img src="images/logo.png"></div>
+
+<div id="container">
+    <div id="ads">
+        Looking for SPP items? Check out <a href="http://www.sppstore.com">SPPStore</a>
+    </div>
+    <div id="updateContainer">
+        <div id="updater">
+            <span><img src="images/new.png">Updates Available</span>
+            <div id="release">
+                <span id="version">SPPMail </span>
+                <span id="notes"></span>
+            </div>
+            <div id="progress">
+                <div id="percent"></div>
+            </div>
+            <div id="buttons">
+                <a id="cancel-update" href="javascript:void(0);">Cancel</a> <a id="download-update" class="button" href="javascript:void(0);">Download</a>
+            </div>
+        </div>
+    </div>
+    <div id="loginContainer">
+        <form id="login" action="http://api.sppmail.com/login/" method="post">
+            <input type="text" name="email" id="email" placeholder="Email">
+            <input type="password" name="password" id="password" placeholder="Password">
+            <input type="submit" value="Login">
+        </form>
+    </div>
+    <div id="page_container">
+        <div class="page_navigation"></div>
+        <div id="messages"></div>
+    </div>
+    <table id="loading"><tr><td>Loading.. <img src="loading.gif"></td></tr></table>
+</div>
+
+<div id="nav">
+	<a href="javascript:void(0);" id="msg">Messages</a>
+        <a href="javascript:void(0);" id="logout">Logout</a>
+	<!--<a href="javascript:void(0);">Gifts</a>-->
+	<!--<a href="javascript:void(0);">Friend Requests</a>-->
+	<!--<a href="javascript:void(0);">Free Gifts</a>-->
+</div>
+</body>
+</html>

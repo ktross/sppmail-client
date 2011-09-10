@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application xmlns="http://ns.adobe.com/air/application/2.5">
+    <filename>SPPMail</filename>
+    <copyright>sppmail.com</copyright>
+    <customUpdateUI>false</customUpdateUI>
+    <name>SPP Mail</name>
+    <id>com.sppmail.notify</id>
+    <versionNumber>0.7</versionNumber>
+    <initialWindow>
+        <content>default.html</content>
+        <height>700</height>
+        <width>960</width>
+        <minSize>500 600</minSize>
+        <maxSize>960 700</maxSize>
+        <systemChrome>standard</systemChrome>
+        <transparent>false</transparent>
+        <visible>true</visible>
+        <maximizable>false</maximizable>
+    </initialWindow>
+    <icon>
+        <image16x16>icons/SPPMail_16.png</image16x16>
+        <image32x32>icons/SPPMail_32.png</image32x32>
+        <image36x36>icons/SPPMail_36.png</image36x36>
+        <image48x48>icons/SPPMail_48.png</image48x48>
+        <image72x72>icons/SPPMail_72.png</image72x72>
+    </icon>
+</application>
